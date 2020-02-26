@@ -1,0 +1,18 @@
+
+ 
+    </body>
+    <script>
+            const items = document.querySelectorAll('.portfolio-item-wrapper');
+            
+            items.forEach(item => {
+                item.addEventListener('mouseover', () => {
+                        item.childNodes[1].classList.add('img-dark');  
+                })
+                
+                item.addEventListener('mouseout', () => {
+                        item.childNodes[1].classList.remove('img-dark');  
+                })
+            })
+            
+    </script>
+</html>
