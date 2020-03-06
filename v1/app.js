@@ -12,6 +12,10 @@ app.get("/tic-tac-toe", function(req, res){
     res.render("tic");
 });
 
+app.get("/rps", function(req, res){
+    res.render("rps");
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The server has started");
 });

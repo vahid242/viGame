@@ -1,46 +1,5 @@
-body{
-    color: 
-}
-
-/* Nav stylyes*/
-.nav-wrapper{
-    display: flex;
-    justify-content:space-between;
-    padding:35px;
-}
-.left-side{
-    display: flex;
-}
-
-.nav-wrapper > .left-side > div{
-    margin-right: 20px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-}
-
-.nav-link-wrapper{
-    height: 22px;
-    border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
-}
-
-.nav-link-wrapper a{
-    color: #8a8a8a;
-    text-decoration: none;
-    transition: color 0.5s;
-}
-
-.nav-link-wrapper:hover {
-    border-bottom:1px solid black;
-}
-
-.nav-link-wrapper a:hover{
-    color: black;
-}
-
-/*upside style */
-
 .upside{
+  background-color: white;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -72,8 +31,6 @@ body{
 .downside{
     background-color:#20B2AA;
     margin-bottom: 0;
-    height: 800px;
-    width: 1000px;
 }
 
 .container-board {

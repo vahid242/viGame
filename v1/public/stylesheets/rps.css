@@ -1,0 +1,38 @@
+.main {
+    height: 100vh;
+    background-color: #20B2AA;
+}
+
+.game_img{
+    display: flex;
+    justify-content: space-around;
+}
+.user_img{
+
+    margin: 20px;
+}
+.computer_img{
+    margin:20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    /*padding: 10px;*/
+    /*margin: 10px;*/
+}
+
+@media screen and (max-width: 995px){
+    #scissor{
+        margin-left:70px;
+    }
+}
+
+@media screen and (max-width: 686px){
+    #scissor{
+        margin-left:0;
+    }
+}
+
+/*.choose_show{*/
+/*    display: none;*/
+/*}*/

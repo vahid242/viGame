@@ -1,24 +1,5 @@
 <%- include ('partials/header') %>
 
-<div class="container">
-    <div class="nav-wrapper">
-        <div class="left-side">
-            <div class="nav-link-wrapper">
-                <a href="/">Home</a>
-            </div>
-            
-            <div class="nav-link-wrapper">
-                <a href="/">About</a>
-            </div>
-        </div>
-        
-        <div class="right-side">
-            <div class="brand">
-                <div>ViGame</div>
-            </div>
-        </div>
-    </div>
-    
     <div class="content-wrapper">
         <div class="portfolio-items-wrapper">
             
@@ -36,7 +17,7 @@
                 </div>
             </div>
             
-            <div class="portfolio-item-wrapper">
+            <div onclick="javascript:window.location.href='/rps'; return false;" class="portfolio-item-wrapper">
                 <div class="profolio-img-background" style="background-image:url(https://static.vecteezy.com/system/resources/previews/000/690/865/non_2x/rock-paper-scissors-line-icons-vector.jpg)">
                 </div>  
                 <div class="img-text-wrapper">
@@ -66,6 +47,5 @@
             
         </div>
     </div>
-</div>
 
 <%- include ('partials/footer') %>
